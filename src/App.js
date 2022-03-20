@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     alanBtn({
-      key: "b9a11dc552ca3061a246c0e8b0fbcf7d2e956eca572e1d8b807a3e2338fdd0dc/stage",
+      key: "",
       onCommand: ({ command, itemNumber, requiredItem }) => {
         if (command === "addItemInCart") {
           addItemInCart(itemNumber);
@@ -41,7 +41,7 @@ function App() {
           history.push("/cart");
         }
         if (command === "goback") {
-          history.goback();
+          history.push("/");
         }
         if (command === "buy") {
           alert("Your order is placed successfully.");

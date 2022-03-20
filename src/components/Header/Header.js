@@ -8,7 +8,7 @@ import "tippy.js/themes/light.css";
 import "tippy.js/animations/perspective.css";
 import "tippy.js/animations/scale.css";
 import LoginT from "../LoginForm/LoginT";
-import MoreT from "../Nav/MoreT";
+import MoreT from "./MoreT";
 import Modal from "../Modal/Modal";
 import { useHistory } from "react-router-dom";
 
