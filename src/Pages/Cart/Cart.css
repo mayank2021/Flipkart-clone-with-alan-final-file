@@ -1,0 +1,20 @@
+.cart-item--container {
+  min-height: 91vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-button {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px;
+  background-color: #2874f0;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
